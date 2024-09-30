@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'kanit';
+  src: url(Kanit/Kanit-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: kanit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border: 3px solid white;
+  box-shadow: 1px 1px 10px darkgray;
+  background-color: white;
+}
+
+.inner-con {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text] {
+  margin: 0.5rem 0;
+  width: 70%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  font-size: 1rem;
+}
+
+input[type=submit] {
+  margin: 0.5rem 0;
+  width: 50px;
+  height: 30px;
+  font-size: 0.8rem;
+  margin: 0 0 0 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+input[type=submit]:hover {
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.inner-con {
+  margin: 0.5rem;
+}
+
+.line {
+  height: 1px;
+  background-color: darkgray;
+}
+
+.inner-todo {
+  margin: 0.5rem;
+}
