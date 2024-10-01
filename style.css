@@ -79,3 +79,12 @@ input[type=submit]:hover {
 .inner-todo {
   margin: 0.5rem;
 }
+
+.list {
+  width: 331px;
+  margin: 0 auto;
+}
+
+.delete {
+  text-decoration: line-through;
+}
